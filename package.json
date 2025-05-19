@@ -6,5 +6,9 @@
     "frontend",
     "server-local",
     "backend"
-  ]
+  ],
+  "scripts": {
+    "db": "brew services start postgresql && pg_ctl -D /usr/local/var/postgresql@14 start",
+    "stop-db": "pg_ctl -D /usr/local/var/postgresql@14 stop && brew services stop postgresql"
+  }
 }
