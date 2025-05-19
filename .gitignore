@@ -1,0 +1,20 @@
+# Root
+node_modules/
+.pnpm-store/
+.env
+.DS_Store
+
+# All packages
+**/node_modules/
+**/dist/
+**/build/
+**/.env
+**/.turbo/
+**/*.tsbuildinfo
+
+# Vite
+frontend/.vite/
+
+# Editors
+.vscode/
+.idea/
