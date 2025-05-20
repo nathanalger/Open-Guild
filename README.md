@@ -30,7 +30,7 @@ All donations are greatly appreciated and help make this project possible!
 
 For questions, suggestions, or to get involved, please reach out:
 
-- **Email:** [nathanalger@gmail.com](mailto:nathanalger@gmail.com)
+- **Email:** [na.alger05@gmail.com](mailto:na.alger05@gmail.com)
 - **GitHub Issues:** [Open an issue](https://github.com/yourusername/openguild/issues)
 
 ---
