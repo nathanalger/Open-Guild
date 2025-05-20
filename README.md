@@ -1,24 +1,36 @@
-# Open Guild (OG)
+# Open Guild
 
-Open Guild is a guild-based chatroom application designed for gamers. Servers are easy, scalable, and easy to host and simple to setup. Members can chat among friends and play games.
+Open Guild is a next-generation, Discord-inspired community platform that empowers users to host their own servers—either locally on their own machines or in the cloud. Our mission is to give communities full control, privacy, and flexibility, with both free and paid hosting options.
 
-# Server Hosting
+## Features
 
-Servers (guilds) are hosted individually and privacy is a priority. Backend software is designed to scale to the host machine so that servers can fit your needs.
+- **Self-Hosted Servers:**  
+  Users can easily spin up and manage their own servers on their own hardware with a simple launcher and a little port forwarding.
 
-## Deploying Local Server Container
+- **Cloud Hosting:**  
+  For those who prefer a simpler, more managed experience, Open Guild offers free and paid cloud hosting tiers.
 
-This app will have a global server that contains user information, server information, etc. To run a local version of this db, here are the steps:
+- **Server Discovery:**  
+  Find and join public servers hosted by the community.
 
-1. Make sure you have the docker daemon installed and running.
-2. Pull and start the local DB container by running `pnpm run db` in the root directory.
-3. To delete the docker container, run `pnpm run delete-db`.
-4. To reset (delete and reinstall) the container, run `pnpm run reset-db`.
+- **Discord-Like Experience:**  
+  Channels, roles, permissions, moderation tools, and bot/plugin support.
 
-# Open Source
+- **Open Source:**  
+  All code is open and contributions are welcome!
 
-This project is designed to be open source so that the original vision of privacy and scalability is not lost. I welcome any contributions made, any progress is good progress.
+## Donate
 
-# Contact
+If you’d like to support the development of Open Guild, you can donate here:  
+[Donate via PayPal](https://www.paypal.com/donate/?business=7M8AU3PBUD87N&no_recurring=0&item_name=Help+me+make+this+happen%21+All+donations+are+greatly+appreciated.&currency_code=USD)
 
-Email: nalger@mtu.edu
+All donations are greatly appreciated and help make this project possible!
+
+## Contact
+
+For questions, suggestions, or to get involved, please reach out:
+
+- **Email:** [nathanalger@gmail.com](mailto:nathanalger@gmail.com)
+- **GitHub Issues:** [Open an issue](https://github.com/yourusername/openguild/issues)
+
+---
