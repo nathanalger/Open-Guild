@@ -8,7 +8,9 @@
     "backend"
   ],
   "scripts": {
-    "db": "brew services start postgresql && pg_ctl -D /usr/local/var/postgresql@14 start",
-    "stop-db": "pg_ctl -D /usr/local/var/postgresql@14 stop && brew services stop postgresql"
+    "db": "docker-compose up -d",
+    "stop-db": "docker-compose down",
+    "delete-db": "docker-compose down -v --rmi all",
+    "reset-db": "docker-compose down -v --rmi all && docker-compose up -d --force-recreate"
   }
 }
