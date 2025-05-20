@@ -12,6 +12,8 @@
     "stop-db": "docker-compose down",
     "reload-db": "docker-compose down && docker-compose up -d",
     "delete-db": "docker-compose down -v --rmi all",
-    "reset-db": "docker-compose down -v --rmi all && docker-compose up -d --force-recreate"
+    "reset-db": "docker-compose down -v --rmi all && docker-compose up -d --force-recreate",
+    "frontend": "pnpm --filter frontend dev",
+    "backend": "pnpm --filter backend dev"
   }
 }
