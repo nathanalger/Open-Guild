@@ -1,19 +1,16 @@
 import User from "../model/types/user";
 import BaseDao from "./BaseDao";
 import knex from "knex";
-
-const db = knex({
-  client: "pg",
-  connection: {
-    host: "localhost",
-    user: "local",
-    password: "admin",
-    database: "openguild",
-  },
-});
+import { db } from "./BaseDao";
 
 const TABLE_NAME = "users";
 
+/**
+ * This is the access class for the users table.
+ * It extends the base access class.
+ *
+ * @author Nathaniel Alger
+ */
 export default class UsersDao extends BaseDao<User> {
   constructor() {
     super("users", db);
