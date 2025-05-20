@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS users (
     last_login_at TIMESTAMP,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE (username, tag),
+    UNIQUE (username, tag)
 );
 
 -- Servers table

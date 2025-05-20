@@ -1,4 +1,3 @@
-CREATE DATABASE openguild;
 CREATE DATABASE openguild_test;
 
 \connect openguild

@@ -23,6 +23,8 @@ services:
       - "5050:80"
     depends_on:
       - postgres
+    volumes:
+      - ./servers.json:/pgadmin4/servers.json
 
 volumes:
   postgres_data:
